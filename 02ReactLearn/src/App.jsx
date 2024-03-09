@@ -31,3 +31,18 @@ const DecreaseValue=()=>{
 
 
 
+}
+return (
+  <>
+  <h1>Learn More About React</h1>
+  <h2>Counter value: {counter}</h2>
+
+  <button onClick={IncreaseValue}
+   id='increase'>Increase Value</button>
+  <br/>
+  <button onClick={DecreaseValue} id='decrase'>Decrease Value</button>
+  </>
+)
+}
+
+export default App
